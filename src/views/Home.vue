@@ -1,18 +1,44 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="content">
+    <div class="title">
+      <div>美食数据可视化平台</div>
+      <el-button type="primary" style="margin:0 30px">登录注册</el-button>
+    </div>
+    <charts></charts>
+    <img src="" alt="" />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import charts from "../views/charts.vue";
 export default {
-  name: 'Home',
+  name: "",
   components: {
-    HelloWorld
+    charts,
+  },
+};
+</script>
+<style lang='scss' scoped>
+.content {
+  padding-left: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  margin-top: 10px;
+  padding: 0 40px;
+  font-size: 30px;
+  align-self: center;
+   display: flex;
+  flex-direction: row;
+}
+.charts {
+  width: 2000px;
+  position: relative;
+  .chartstwo {
+    position: relative;
+    right: 20px;
   }
 }
-</script>
+</style>
