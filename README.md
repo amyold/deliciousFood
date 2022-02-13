@@ -1,24 +1,6 @@
-# deliciousfood
-
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# deliciousFood
+美食数据爬取与可视化分析
+前端:Vue
+后端:Springboot
+数据库:mysql
+预览地址:http://123.60.49.245/
